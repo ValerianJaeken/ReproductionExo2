@@ -1,1 +1,28 @@
+.headlogo img{
+  border-radius:50%;
+  height:120px;
+  width:100px;
+  display:flex;
+  justify-content: flex-start;
+}
 
+.headmenu{
+  color:white;
+  display:flex;
+  flex-direction: row;
+  margin-right:100px;
+}
+.headmenu p{
+  margin-left:35px;
+  margin-top:50px;
+}
+.headcontainer{
+  background-color:#4A4D48;
+  display:flex;
+  justify-content:space-between;
+}
+.sec1container{
+  background-image:url("http://7wallpapers.net/wp-content/uploads/2016/06/10_Sloth.jpg");
+  height:600px;
+  background-size:cover;
+}

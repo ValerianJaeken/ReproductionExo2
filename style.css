@@ -1,3 +1,7 @@
+body{
+  margin:0;
+  padding:0;
+}
 .headlogo img{
   border-radius:50%;
   height:120px;
@@ -25,4 +29,208 @@
   background-image:url("http://7wallpapers.net/wp-content/uploads/2016/06/10_Sloth.jpg");
   height:600px;
   background-size:cover;
+  color:white;
+}
+
+.sec1title{
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items:center;
+  height:400px;
+  line-height: 0;
+}
+.sec1button{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:blue;
+  border: solid blue 2px;
+  border-radius:25px;
+  width:250px;
+  height:50px;
+  margin-left:40%;
+}
+.layer{
+  background-color:black;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  opacity:0.7;
+}
+.sec2container{
+  background-color:#5882FA;
+  height:300px;
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+}
+
+.sec2text{
+  font-size:20px;
+  margin-left:380px;
+}
+.sec2text p{
+  margin:0;
+  padding:0;
+  width:500px;
+  text-align:center;
+}
+
+.sec2h{
+  font-size:22px;
+  text-align: center;
+}
+
+.icon p{
+
+  border-radius:80%;
+  background-color:gray;
+  border:solid gray 1px;
+  width:20px;
+  text-align:center;
+  font-size:18px;
+}
+.icon{
+  display:flex;
+  justify-content: center;
+}
+.sec3container2{
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height:300px;
+  background-color:lightgray;
+  opacity:0.4;
+}
+.box{
+  text-align:center;
+  margin-top:40px;
+  height:250px;
+}
+
+.box strong{
+  font-size:24px;
+}
+.box p{
+  font-size:19px;
+}
+
+.textbox{
+  color:#5882FA;
+  border: solid #5882FA 3px;
+  border-radius: 15px;
+  height:50px;
+  width:150px;
+  display:flex;
+  justify-content: center;
+  margin-left:35px;
+  font-weight: bolder;
+}
+.sec4container{
+  display:flex;
+  justify-content: space-around;
+}
+.sec4left{
+  width:400px;
+}
+.sec4left h5{
+  font-size:20px;
+}
+.sec4left h3{
+  font-size:23px;
+}
+.sec4left p{
+  color:#BDBDBD;
+}
+.sec5container{
+  background-color:#2E2E2E;
+  display:flex;
+  justify-content: space-around;
+  height:300px;
+}
+.sec5text{
+  color:white;
+  font-size:35px;
+  width:450px;
+  margin-top:75px;
+}
+.bleu{
+  color:teal;
+}
+.sec5menu button{
+  background-color:#5882FA;
+  width:260px;
+  color:white;
+  margin-top:10px;
+
+}
+.sec5menu{
+  background-color:darkgray;
+  height: 100px;
+  margin-top:110px;
+}
+.sec5menu input{
+  color:gray;
+  width:250px;
+  height:25px;
+}
+.huh{
+  background-image:url("https://wallpapercave.com/wp/6x6hXdt.jpg");
+  height:500px;
+  background-size:cover;
+}
+.sec6container{
+  background-color:#5882FA;
+  opacity:0.6;
+  height:500px;
+  display:flex;
+  justify-content:center;
+  filter
+
+}
+
+.sec6text{
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  width:400px;
+  color:white;
+}
+
+.sec6text h4{
+  font-size:20px;
+}
+
+.sec7container{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sec7text{
+  text-align: left;
+  width:400px;
+  margin-left:35%;
+}
+
+.sec7button{
+  color:white;
+  border: solid 2px #5882FA;
+  border-radius:3px;
+  background-color:#5882FA;
+  text-align: center;
+  width:200px;
+  margin-left: 35%;
+}
+.footercontainer{
+  background-color: #2E2E2E;
+  color:white;
+  text-align: center;
+  height:250px;
+}
+.footertext{
+  padding-top:80px;
+
 }

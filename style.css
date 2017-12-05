@@ -69,10 +69,10 @@ body{
 
 .sec2text{
   font-size:20px;
-  margin-left:380px;
+
 }
 .sec2text p{
-  margin:0;
+  margin:auto;
   padding:0;
   width:500px;
   text-align:center;
